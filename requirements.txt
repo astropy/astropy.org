@@ -1,0 +1,4 @@
+sphinx
+myst-parser
+sphinx-design
+sphinx-astropy[confv3]@git+https://github.com/Cadair/sphinx-astropy@conf-v3-sunpy
