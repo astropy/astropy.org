@@ -7,9 +7,14 @@ Astropy
    :maxdepth: 0
    :hidden:
 
+   about
    acknowledging
    affiliated/index
    code_of_conduct
+   contribute
+   help
+   history
+   team
 
 .. raw:: html
 
