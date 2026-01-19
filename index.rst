@@ -1,4 +1,5 @@
-.. astropy-org:index
+.. _astropy-org-index:
+
 Astropy
 =======
 
@@ -6,7 +7,7 @@ Astropy
    :maxdepth: 0
    :hidden:
 
-   about/index
+   acknowledging
 
 .. raw:: html
 
@@ -29,7 +30,7 @@ The Astropy community is committed to supporting the :ref:`astropy-org:coc`.
 
 .. rst-class:: acknowledge
 
-    Please remember to :ref:`astropy-org:acknowledge` the use of Astropy!
+    Please remember to :ref:`acknowledge and cite <astropy-org-acknowledge>` the use of Astropy!
 
 .. raw:: html
 
@@ -239,24 +240,6 @@ encouraged to submit talks, etc. and other relevant materials.
 
     .sd-col>p {
       margin-bottom: 0;
-    }
-
-    a.sd-btn {
-      border: none;
-    }
-
-    a.sd-btn {
-      color: var(--sst-lightest-color);
-      background-image: linear-gradient(var(--sst-accent-color-muted), var(--sst-accent-color-bright));
-    }
-
-    a.sd-btn:hover,
-    a.sd-btn:visited:hover {
-      color: var(--sst-dark-color);
-      background: rgba(255, 255, 255, 0.3);
-      background-blend-mode: lighten;
-      background-image: linear-gradient(var(--sst-accent-color-muted), var(--sst-accent-color-bright));
-      text-decoration: none;
     }
 
     .sd-container, .sd-container-fluid, .sd-container-lg, .sd-container-md, .sd-container-sm, .sd-container-xl {

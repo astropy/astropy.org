@@ -16,6 +16,7 @@ author = 'Astropy Community'
 extensions = [
     "myst_parser",
     "sphinx_design",
+    "sphinx_copybutton",
 ]
 
 templates_path = ['_templates']
@@ -34,6 +35,7 @@ exclude_patterns = [
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'astropy'
+
 html_static_path = ['_static']
 
 html_theme_options = {
@@ -42,5 +44,9 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "index": [],
+    "*": [],
 }
+
+html_css_files = [
+    "css/astropy-org.css"
+]
