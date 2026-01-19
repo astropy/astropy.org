@@ -34,7 +34,7 @@ exclude_patterns = [
     'CONTRIBUTING.md',
 ]
 
-rawfiles = ["affiliated/registry.json"]
+rawfiles = ["annoucement_banner.html", "affiliated/registry.json"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
