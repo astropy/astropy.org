@@ -3,6 +3,9 @@
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import sys
+from pathlib import Path
+
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
@@ -13,10 +16,12 @@ author = 'Astropy Community'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+sys.path.append(Path("exts").absolute().as_posix())
 extensions = [
     "myst_parser",
     "sphinx_design",
     "sphinx_copybutton",
+    "rawfiles",
 ]
 
 templates_path = ['_templates']
@@ -29,7 +34,7 @@ exclude_patterns = [
     'CONTRIBUTING.md',
 ]
 
-
+rawfiles = ["affiliated/registry.json"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -44,9 +49,14 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "*": [],
+    "**": [],
 }
 
 html_css_files = [
     "css/astropy-org.css"
+]
+
+html_js_files = [
+    "js/functions.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",
 ]

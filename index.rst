@@ -8,6 +8,7 @@ Astropy
    :hidden:
 
    acknowledging
+   affiliated/index
 
 .. raw:: html
 
@@ -25,8 +26,8 @@ Astropy
 
     <div class="text-center" style="padding-top: 30px;">
 
-The Astropy Project is a community effort to develop a `common core package <https://docs.astropy.org>`__ for Astronomy in Python and foster an ecosystem of :ref:`astropy-org:affiliated`.
-The Astropy community is committed to supporting the :ref:`astropy-org:coc`.
+The Astropy Project is a community effort to develop a `common core package <https://docs.astropy.org>`__ for Astronomy in Python and foster an ecosystem of :ref:`astropy-org-affiliated`.
+The Astropy community is committed to supporting the :ref:`astropy-org-coc`.
 
 .. rst-class:: acknowledge
 
