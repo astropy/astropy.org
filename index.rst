@@ -9,6 +9,7 @@ Astropy
 
    acknowledging
    affiliated/index
+   code_of_conduct
 
 .. raw:: html
 
