@@ -76,6 +76,8 @@ function maintainer_translator(maint, pkgnm) {
 
 
 function createRolesTable(roles) {
+    var tab = document.getElementById("roles-table");
+    tab.deleteRow(1);
     //roles is an array of objects called "role"
     var rows = '';
     roles.forEach(function (role) {
@@ -140,8 +142,7 @@ function createRolesDescription(roles) {
 
             //console.log(role['responsibilities']);
 
-            blocks += '<br/>' +
-            '<h3 id="' + role["url"] + '">' + role["role-head"] + '</h3>';
+            blocks += '<h4 id="' + role["url"] + '">' + role["role-head"] + '</h4>';
 
             index = 0;
 

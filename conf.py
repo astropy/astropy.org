@@ -34,7 +34,7 @@ exclude_patterns = [
     'CONTRIBUTING.md',
 ]
 
-rawfiles = ["annoucement_banner.html", "affiliated/registry.json"]
+rawfiles = ["annoucement_banner.html", "roles.json", "affiliated/registry.json"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -60,3 +60,15 @@ html_js_files = [
     "js/functions.js",
     "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",
 ]
+
+################################################################################
+# Other Trickery
+################################################################################
+# We want to get the credits.rst file from astropy core, but not keep it in the repo
+
+from urllib.request import urlretrieve
+
+urlretrieve(
+    "https://raw.githubusercontent.com/astropy/astropy/refs/heads/main/docs/credits.rst",
+    filename="credits.rst",
+)

@@ -1,3 +1,4 @@
 *.py[co]
 *.DS_STORE
 _build/
+credits.rst

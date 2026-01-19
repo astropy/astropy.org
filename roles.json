@@ -1,0 +1,710 @@
+[
+    {
+        "role": "Coordination committee member",
+        "url": "Coordination_committee_member",
+        "people": [
+            "Clara Brasseur",
+            "Aarya Patil",
+            "Nathaniel Starkman",
+            "Erik Tollerud",
+            "Kyle Westfall"
+        ],
+        "role-head": "Coordination committee member",
+        "responsibilities": [
+            {
+                "description": "Overall coordination and management of the Astropy project, including:",
+                "details": [
+		            "Formally detailed in the <a href='https://github.com/astropy/astropy-APEs/blob/main/APE0.rst#the-coordination-committee'>The Astropy Project Governance Charter (APE 0)</a>",
+                  "Keeping a large-scale view of the Astropy ecosystem",
+                  "Approving or rejecting Astropy APEs",
+                  "Evaluating and merging core package pull requests as needed (e.g., for sub-packages without a maintainer)",
+                   "Arbitrating disagreements in the core package, including final decisions when otherwise deadlocked",
+                   "Maintaining the list of roles and related github permissions",
+                   "Managing finances for the project",
+                   "Coordinating with NumFOCUS and other funding organizations",
+                   "Securing funding for the project via discussions and proposals to funding agencies"
+                 ]
+            },
+            {
+                "description": "Organization and communication:",
+                "details": [
+                    "Policies: <a href='https://github.com/astropy/astropy-project/tree/main/policies/coco-operating-policies.md'>CoCo Operating Policies</a>.",
+                    "Meeting records: <a href='https://docs.google.com/document/d/1s0d7uKCUC9V1nMeGEZ0byHBNyeYxCbmmSDu-QZJXP_M'>CoCo Running Notes</a>.",
+                    "Communication within the coordination committee happens through regular Zoom meetings and a private Slack channel.",
+                    "Contact the Coordination Committee via email to <a href='mailto:coordinators@astropy.org'>coordinators@astropy.org</a> or by tagging the <a href='https://github.com/orgs/astropy/teams/coordinators'>github team @astropy/coordinators</a>.",
+                    "Coordination committee members send project updates to appropriate email lists (e.g. <a href='https://groups.google.com/u/1/g/astropy-dev'>astropy-dev</a>)."
+                ]
+            }
+        ]
+    },
+    {
+        "role": "Ombudsperson",
+        "url": "Ombudsperson",
+        "people": [
+            "Perry Greenfield"
+        ],
+        "role-head": "Ombudsperson",
+        "responsibilities": {
+            "description": "Provide a point of contact for sensitive issues separate from the coordinating committee, including:",
+            "details": [
+		"Formally detailed in the <a href='https://github.com/astropy/astropy-APEs/blob/main/APE0.rst#the-ombudsperson'>The Astropy Project Governance Charter (APE 0)</a>",
+                "Monitoring the <a href='mailto:confidential@astropy.org'>confidential@astropy.org</a> email account",
+                "Solicit and provide anonymized feedback to the astropy coordination committee regarding coordination of the project",
+                "Assist the coordination committee and community engagement coordinator with violations of the code of conduct or other ethical concerns"
+            ]
+        }
+    },
+    {
+        "role": "Strategic planning and organizing committee member",
+        "url": "strategic_planner",
+        "people": [
+            "Kelle Cruz",
+            "Adrian Price-Whelan",
+            "Thomas Robitaille",
+            "Nathaniel Starkman",
+            "Erik Tollerud"
+        ],
+        "role-head": "Strategic planner",
+        "responsibilities": [{
+            "description": "Do long-term planning for the Astropy Project as a whole, including:",
+            "details": [
+                "Shape and provide a vision for next major steps in the Project, in consultation with the whole Astropy community.",
+                "Maintain an overview of all the project activities (both from developer and user perspectives).",
+                "Provide points of contact for external stakeholders on the above (with the Coordination Committee).",
+                "Monitor project activities to see how well aligned they are with the roadmap and strategic goals of the project, and report back to the community and Coordination Committee.",
+                "Coordinate writing grant proposals (in collaboration with the Finance Committee, Coordination Committee, and community).",
+                "Maintain the Astropy Project Roadmap.",
+                "Engage with, and collect input from, the whole Astropy Community on project vision and priorities."
+            ]
+        },
+        {
+            "description": "Organization and communication:",
+            "details": [
+                "Policies: <a href='https://github.com/astropy/astropy-project/blob/main/policies/strategic_planning_committee_draft.md'>Beta-Year Draft</a>.",
+                "Meeting records: <a href='https://docs.google.com/document/d/1IyCcg7VS2qFP6AUisYFar6_f_fw31k_iGXSVpCYmAZE/edit?tab=t.0#heading=h.kryg1u1l8xpj'>Strategic Planning Running Notes</a>.",
+                "Communication within the coordination committee happens through regular Zoom meetings and a private Slack channel.",
+                "Contact the Strategic Planning Committee via email to <a href='mailto:strategic.planning@astropy.org'>strategic.planning@astropy.org</a> or by tagging the <a href='https://github.com/orgs/astropy/teams/strategic-planning'>github team @astropy/strategic-planning</a>."
+            ]
+        }]
+    },
+    {
+        "role": "Finance committee member",
+        "url": "finance_committee_member",
+        "people": [
+            "Kelle Cruz (chair)",
+            "Aarya Patil",
+            "John Swinbank",
+            "Erik Tollerud"
+        ],
+        "role-head": "Finance committee member",
+        "responsibilities": [{
+            "description": "Plan, oversee, and disburse the Astropy project finances, including:",
+            "details": [
+                "Determine and manage the process for paying people from Astropy's project-level funding.",
+                "Paying and overseeing people in supporting roles (e.g., documentation copy-editors, contract lawyers).",
+                "Oversee payment for services, licenses, and travel (e.g., Python in Astronomy, SciPy), and other miscellaneous expenses the project already pays for.",
+                "Maintain and continuously develop a transparent process for reporting all of the above to the Coordination Committee and wider community, related record keeping, and planning the same for future possible financial committee efforts."
+            ]
+        },
+        {
+            "description": "Organization and communication:",
+            "details": [
+                "Policies: <a href='https://github.com/astropy/astropy-project/blob/main/finance/process/policies.rst'>Finance Committee Operating Policies</a>.",
+                "Meeting records: <a href='https://docs.google.com/document/d/1OpSEtJC0jQINTB-YNexxgnHX7-J6HRSkiPKYWBSCOfg/edit?usp=sharing'>Finance Running Notes</a>.",
+                "Communication within the finance committee happens through regular Zoom meetings and a private Slack channel.",
+                "Contact the Finance Committee via email to <a href='mailto:finance@astropy.org'>finance@astropy.org</a>, tagging the <a href='https://github.com/orgs/astropy/teams/finance-committee'>github team @astropy/finance-committee</a>, or via <i>#finance-committee</i> public channel in Astropy Slack workspace.",
+                "Finance committee members send project updates to appropriate email lists (e.g. <a href='https://groups.google.com/u/1/g/astropy-dev'>astropy-dev</a>)."
+            ]
+        }]
+    },
+    {
+        "role": "Maintainer Mentorship coordinator",
+        "url": "mentorship",
+        "people": [
+            "Tom Aldcroft"
+        ],
+        "role-head": "Maintainer Mentorship coordinator",
+        "responsibilities": {
+            "description": "Lead the maintainer mentorship program, including:",
+            "details": [
+                "identifying active and experienced contributors that would like to become maintainers",
+                "finding mentors for new maintainers",
+                "develop opportunities for new maintainers"
+            ]
+        }
+    },
+    {
+        "role": "Community engagement coordinator",
+        "url": "Community_engagement_coordinator",
+        "role-head": "Community engagement coordinator",
+        "sub-roles": [
+            {
+                "role": "Overall",
+                "people": [
+                    "Unfilled"
+                ]
+            },
+            {
+                "role": "Facebook",
+                "people": [
+                    "Kelle Cruz"
+                ]
+            },
+            {
+                "role": "Slack/Matrix",
+                "people": [
+                    "Stuart Mumford"
+                ]
+            },
+            {
+                "role": "Discourse",
+                "people": [
+                    "Stuart Mumford"
+                ]
+            },
+            {
+                "role": "Conferences",
+                "people": [
+                    "Kelle Cruz",
+                    "Erik Tollerud"
+                ]
+            },
+            {
+                "role": "BlueSky",
+                "people": [
+                    "Brett Morris"
+                ]
+            },
+            {
+                "role": "Mastodon",
+                "people": [
+                    "Stuart Mumford"
+                ]
+            }
+        ],
+        "responsibilities": {
+            "description": "Facilitate engagement with the Astropy community, including:",
+            "details": [
+                "Maintain Astropy's social media accounts",
+                "Monitor/moderate the Python Users in Astronomy Facebook group",
+                "Keep track of/help organize presence in conferences and workshops",
+	  	"Maintain infrastructure for communication channels (e.g., Discourse)"
+            ]
+        }
+    },
+    {
+        "role": "Learn Team",
+        "url": "Learn_team",
+	"role-head": "Learn Team",
+	"sub-roles": [
+	    {
+		"role": "Coordinators",
+		"people": [
+		    "Clara Brasseur"
+		]
+	    },
+        {
+		"role": "Learn content and infrastructure",
+		"people": [
+            "Lia Corrales",
+            "Kelle Cruz",
+            "Matt Craig",
+		    "Adrian Price-Whelan",
+		    "Erik Tollerud",
+		    "Jonathan Sick",
+            "Jeff Jennings"
+		]
+	    },
+	    {
+		"role": "Workshop Coordinators",
+		"people": [
+		    "David Shupe",
+		    "Brett Morris",
+		    "Kelle Cruz"
+		]
+	    }
+	],
+        "responsibilities": [
+            {
+		"subrole-head": "Coordinators",
+		"description": "Oversee the Astropy \"Learn\" ecosystem, including:",
+		"details": [
+                    "Ensuring that the documentation, tutorials, and guide materials are internally consistent and cover key areas of the ecosystem",
+                    "Overseeing the maintainers for the aforementioned areas",
+                    "Organizing sprints or other events focused on Astropy learning materials"
+		]
+	    },
+	    {
+                "subrole-head": "Learn content and infrastructure",
+                "description": "Maintain the infrastructure and edit content of the <a href='https://learn.astropy.org/'>Tutorials website</a>, including:",
+                "details": [
+                    "Facilitating the display and discoverability of the tutorials",
+                    "Rendering of the Jupyter notebooks",
+                    "Integrated testing of notebooks",
+                    "Reviewing issues and pull requests",
+                    "Soliciting new content as needed"
+                ]
+            },
+	    {
+		"subrole-head": "Workshop Coordinators",
+		"description": "Organize and coordinate Astropy workshops for training and outreach to users",
+		"details": [
+                    "Maintain the astropy-workshops repository",
+                    "Oversee staffing/volunteers for workshops",
+                    "Identify opportunities for workshops in diverse geographic locations"
+		]
+	    }
+	]
+    },
+    {
+        "role": "Affiliated package review editor",
+        "url": "Affiliated_package_review_editor",
+        "people": ["Hans Moritz G\u00fcnther", "Derek Homeier"],
+        "deputy": ["Unfilled"],
+        "role-head": "Affiliated package review editor",
+        "responsibilities": {
+            "description": "Oversee affiliated packages in partnership with <a href='https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html'>pyOpenSci</a>, including:",
+            "details": [
+                "Representing Astropy as pyOpenSci Software Review Editor",
+                "Keeping track of submissions to the affiliated package ecosystem",
+                "Guiding submissions through the pre-submission and submission steps to the <a href='https://www.pyopensci.org/software-peer-review/how-to/author-guide.html#submit-your-package-for-peer-review'>Peer Review system</a>"
+            ]
+        }
+    },
+    {
+        "role": "APE editor",
+        "url": "APE_editor",
+        "people": [
+            "Clara Brasseur",
+            "Aarya Patil",
+			"Nathaniel Starkman",
+            "Erik Tollerud",
+			"Kyle Westfall"
+		],
+        "deputy": ["Unfilled"],
+        "role-head": "APE editor",
+        "responsibilities": {
+            "description": "Oversee APE submissions as laid out in <a href='https://github.com/astropy/astropy-APEs/blob/main/APE1.rst'>APE 1</a>, including:",
+            "details": [
+                "Perform editorial reviews of new APE submissions",
+                "Shepherd the APE discussions and redirect them to astropy-dev, as needed",
+                "Monitor and maintain <a href='https://github.com/astrofrog/astropy-APEs'>astropy-APEs</a> repository"
+            ]
+        }
+    },
+    {
+        "role": "Release team",
+        "url": "release_team",
+        "people": [
+            "Simon Conseil",
+            "Thomas Robitaille"
+        ],
+        "role-head": "Release team",
+        "responsibilities": {
+            "description": "Oversee the release process for packages in the project, including:",
+            "details": [
+                "Carrying out releases of the core astropy package",
+                "Notifying the Distribution Coordinators of any core astropy package release",
+                "Working with the Community Engagement Coordinator to make release announcements via channels such as mailing lists and social media",
+                "Keeping documentation for the release process of the core package up to date",
+                "Designing policies to improve the uniformity of release procedures for the coordinated and infrastructure packages of the Astropy Project",
+                "Testing the interoperability of the core, coordinated, and infrastructure packages and provide safeguards against breaking the ecosystem."
+            ]
+        }
+    },
+    {
+        "role": "Security team",
+        "url": "security_team",
+        "people": [
+            "Hans Moritz G\u00fcnther",
+            "Pey Lian Lim",
+            "Thomas Robitaille",
+            "Erik Tollerud"
+        ],
+        "role-head": "Security team",
+        "responsibilities": {
+            "description": "Organize security reporting and auditing for packages in the project, including:",
+            "details": [
+                "Monitor and reply to security reports (this role needs admin privileges on GitHub to access reports submitted through GitHub's secure reporting form)",
+                "Coordinate the response to any security report with the relevant package maintainers and outside security experts",
+                "Coordinate security audits with external experts as needed and available",
+                "Release CVEs as necessary"
+            ]
+        }
+    },
+    {
+        "role": "Infrastructure and Operations",
+        "url": "devops_team",
+        "role-head": "Infrastructure and Operations",
+        "sub-roles": [
+            {
+                "role": "Technical Lead",
+                "people": [
+                    "Pey Lian Lim",
+                    "Brigitta Sip\u0151cz"
+                ]
+            },
+            {
+                "role": "Testing infrastructure",
+                "people": [
+                    "Simon Conseil",
+                    "Pey Lian Lim",
+                    "Thomas Robitaille",
+                    "Brigitta Sip\u0151cz"
+                ]
+            },
+            {
+                "role": "Documentation infrastructure",
+                "people": [
+                    "Simon Conseil",
+                    "Pey Lian Lim",
+                    "Thomas Robitaille",
+                    "Brigitta Sip\u0151cz"
+                ]
+            },
+            {
+                "role": "Astropy.org web page maintainer",
+                "people": [
+                    "Hans Moritz G\u00fcnther",
+                    "Derek Homeier",
+                    "Erik Tollerud"
+                ]
+            }
+
+        ],
+        "responsibilities": [
+            {
+                "subrole-head": "Technical Lead",
+                "description": "Ensure the smooth running of the project",
+                "details": [
+                    "Set up and maintain continuous integration services",
+                    "Move issues between repositories within the organization"
+                ]
+            },
+            {
+                "subrole-head": "Testing infrastructure",
+                "description": "Lead development and maintenance of the testing infrastructure for Astropy and the helpers, including:",
+                "details": [
+                    "Managing issues/pull request for the Astropy core package regarding testing infrastructure",
+                    "Managing issues/pull requests in the repositories containing the testing plugins, and determining when new plugins are required",
+                    "Maintaining the 'metapackage' with the testing machinery (pytest-astropy at the time of this writing)",
+                    "Supporting and enabling affiliated package usage of the testing infrastructure"
+                ]
+            },
+            {
+                "subrole-head": "Documentation infrastructure",
+                "description": "Maintain the <a href='https://docs.astropy.org/en/stable/index.html'>Astropy documentation</a> website, including:",
+                "details": [
+                    "Managing the Sphinx infrastructure",
+                    "Implementing changes and improvements to the documentation website",
+                    "Overseeing content (although primary responsibility for content lies with subpackage maintainers)"
+                ]
+            },
+            {
+                "subrole-head": "Astropy.org web page maintainer",
+                "description": "Manage the <a href='https://astropy.org'>astropy.org</a> web site, including:",
+                "details": [
+                    "Managing pull requests to the website repository in general",
+                    "Managing <a href='http://data.astropy.org'>data.astropy.org</a>, which is done by managing the astropy-data repository (which is automatically synced with <a href='http://data.astropy.org'>data.astropy.org</a>)",
+                    "Managing the astropy.org DNS entries and related domain name upkeep"
+                ]
+            }
+        ]
+    },
+    {
+        "role": "Core astropy package maintainer",
+        "url": "Subpackage_maintainer",
+        "role-head": "Sub-package maintainer (at least one per core package sub-package)",
+        "sub-roles": [
+            {
+                "role": "General",
+                "people": [
+                    "Derek Homeier",
+                    "Pey Lian Lim",
+                    "Cl\u00e9ment Robert",
+                    "Ole Streicher"
+                ]
+            },
+            {
+                "role": "astropy.constants",
+                "people": [
+                    "David Shupe",
+                    "Marten van Kerkwijk"
+                ]
+            },
+            {
+                "role": "astropy.convolution",
+                "people": [
+                    "Larry Bradley",
+                    "Axel Donath",
+                    "Adam Ginsburg"
+                ]
+            },
+            {
+                "role": "astropy.coordinates",
+                "people": [
+                    "Stuart Littlefair",
+                    "Adrian Price-Whelan",
+                    "Eero Vaher",
+                    "Marten van Kerkwijk"
+                ]
+            },
+            {
+                "role": "astropy.cosmology",
+                "people": [
+                    "Nathaniel Starkman"
+                ]
+            },
+            {
+                "role": "astropy.io.ascii",
+                "people": [
+                    "Tom Aldcroft",
+                    "Hans Moritz G\u00fcnther",
+                    "Derek Homeier"
+                ]
+            },
+            {
+                "role": "astropy.io.fits",
+                "people": [
+                    "Simon Conseil",
+                    "Thomas Robitaille"
+                ]
+            },
+            {
+                "role": "astropy.io.misc",
+                "people": [
+                    "Matteo Bachetti"
+                ]
+            },
+            {
+                "role": "astropy.io.votable",
+                "people": [
+                    "Thomas Boch",
+                    "Tom Donaldson",
+                    "Pey Lian Lim"
+                ]
+            },
+            {
+                "role": "astropy.modeling",
+                "people": [
+                    "Nadia Dencheva",
+                    "Perry Greenfield",
+                    "William Jamieson"
+                ]
+            },
+            {
+                "role": "astropy.nddata",
+                "people": [
+                    "Matt Craig",
+		    "Brett Morris"
+                ]
+            },
+            {
+                "role": "astropy.samp",
+                "people": [
+                    "Unfilled"
+                ]
+            },
+            {
+                "role": "astropy.stats",
+                "people": [
+                    "Larry Bradley"
+                ]
+            },
+            {
+                "role": "astropy.table",
+                "people": [
+                    "Tom Aldcroft",
+                    "Marten van Kerkwijk"
+                ]
+            },
+            {
+                "role": "astropy.time",
+                "people": [
+                    "Tom Aldcroft",
+                    "Marten van Kerkwijk"
+                ]
+            },
+            {
+                "role": "astropy.timeseries",
+                "people": [
+                    "Thomas Robitaille",
+                    "Brigitta Sip\u0151cz"
+                ]
+            },
+            {
+                "role": "astropy.uncertainties",
+                "people": [
+                    "Erik Tollerud",
+                    "Marten van Kerkwijk"
+                ]
+            },
+            {
+                "role": "astropy.units",
+                "people": [
+                    "Nathaniel Starkman",
+                    "Marten van Kerkwijk"
+                ]
+            },
+            {
+                "role": "astropy.utils",
+                "people": [
+                    "Pey Lian Lim",
+                    "Brigitta Sip\u0151cz"
+                ]
+            },
+            {
+                "role": "astropy.visualization",
+                "people": [
+                    "Larry Bradley",
+                    "Stuart Mumford",
+                    "Thomas Robitaille"
+                ]
+            },
+            {
+                "role": "astropy.wcs",
+                "people": [
+                    "Mihai Cara, Nadia Dencheva"
+                ]
+            }
+        ],
+        "responsibilities": [
+            {
+                "subrole-head": "General maintainer",
+                "description": "Maintain the astropy core package in aspects that are not specific to a single sub-package, including:",
+                "details": [
+                    "Evaluating new pull requests for quality, API consistency, Astropy coding standards, and appropriateness within the overall astropy ecosystem, in particular for pull requests spanning multiple sub-packages",
+                    "Merging Pull Requests that are non-controversial or after reaching out to relevant subpackage maintainers",
+                    "Maintain, review, and advocate for useful interaction between multiple sub-packages",
+                    "Perform initial triaging of issues and pull requests",
+                    "Keeping track of frequent contributors and their relevant areas of expertise"
+                ]
+            },
+            {
+
+                "subrole-head": "Sub-package maintainer",
+                "description": "Maintain a sub-package of the astropy core package, including:",
+                "details": [
+                    "Evaluating new pull requests for quality, API consistency, Astropy coding standards, and appropriateness within the overall astropy ecosystem",
+                    "Merging Pull Requests in the sub-package",
+                    "Keeping track of the \u201cbig picture\u201d progress of the sub-package - includes new feature development and significant bugs",
+                    "Perform initial triaging of issues and pull requests",
+                    "Keeping track of frequent contributors to the sub-package and their relevant areas of expertise"
+                ]
+            }
+        ]
+    },
+    {
+        "role": "Coordinated package maintainer",
+        "url": "Coordinated_package_maintainer",
+        "role-head": "Astropy coordinated package maintainer",
+        "sub-roles": [
+            {
+                "role": "asdf-astropy",
+                "people": [
+                    "Brett Graham",
+                    "Nadia Dencheva",
+                    "Perry Greenfield",
+                    "Stuart Mumford"
+                ]
+            },
+            {
+                "role": "astropy-healpix",
+                "people": [
+                    "Leo Singer",
+                    "Thomas Robitaille"
+                ]
+            },
+            {
+                "role": "astroquery",
+                "people": [
+                    "Adam Ginsburg",
+                    "Brigitta Sip\u0151cz"
+                ]
+            },
+            {
+                "role": "ccdproc",
+                "people": [
+                    "Matt Craig"
+                ]
+            },
+            {
+                "role": "photutils",
+                "people": [
+                    "Larry Bradley"
+                ]
+            },
+            {
+                "role": "regions",
+                "people": [
+                    "Larry Bradley",
+                    "Adam Ginsburg"
+                ]
+            },
+            {
+                "role": "reproject",
+                "people": [
+                    "Thomas Robitaille",
+                    "Stuart Mumford",
+                    "Sam Van Kooten"
+                ]
+            },
+            {
+                "role": "specreduce",
+                "people": [
+                    "Tim Pickering",
+                    "Erik Tollerud",
+                    "Kyle Conroy",
+                    "Clare Shanahan",
+                    "Hannu Parviainen"
+                ]
+            },
+            {
+                "role": "specutils",
+                "people": [
+                    "Ricky O'Steen",
+                    "Adam Ginsburg",
+                    "Erik Tollerud",
+                    "Kelle Cruz"
+                ]
+            }
+        ],
+        "responsibilities": {
+            "description": "Maintain an <a href='https://www.astropy.org/affiliated/index.html#coordinated-package-list'>astropy coordinated package</a>, including:",
+            "details": [
+                "Maintaining the github repository for the coordinated package",
+                "Maintaining the coordinated package's infrastructure (usually via the helpers and package template)",
+                "Monitoring features and bringing them for inclusion in the core package when relevant",
+                "All the same responsilities as a sub-package, but for the coordinated package."
+            ]
+        }
+    },
+    {
+        "role": "Dev-telecon coordinator",
+        "url": "devtelecon_coordinator",
+        "people": [
+            "Hans Moritz G\u00fcnther"
+        ],
+        "role-head": "Developer telecon coordinators",
+        "responsibilities": {
+            "description": "Organize monthly developer telecons",
+            "details": []
+        }
+    },
+    {
+        "role": "Distribution coordinator",
+        "url": "Distribution_coordinator",
+        "people": [
+            "Matt Craig",
+            "Stuart Mumford",
+            "Sergio Pascual",
+            "Ole Streicher",
+            "Miguel de Val-Borro"
+        ],
+        "role-head": "Distribution coordinators",
+        "responsibilities": {
+            "description": "Create and maintain binary distribution packages for Astropy core and affiliated packages for a specific OS or package management system.",
+            "details": []
+        }
+    }
+]
