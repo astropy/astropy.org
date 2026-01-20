@@ -64,3 +64,10 @@ table.package-table td.first-package-row {
 .third-row-sep tbody tr:nth-child(3n+4) {
     border-top: 1px var(--bs-border-color) solid;
 }
+
+.announce-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
