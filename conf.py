@@ -58,8 +58,11 @@ html_css_files = [
 
 html_js_files = [
     "js/functions.js",
-    "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",
+    "https://code.jquery.com/jquery-3.7.1.min.js",
 ]
+
+html_title = ""
+html_favicon = "_static/img/favicon.ico"
 
 ################################################################################
 # Other Trickery
