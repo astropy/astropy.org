@@ -146,6 +146,8 @@ This section is frozen as of March 6, 2024.
      - \-
      - \-
 
+.. _astropy-org-affiliated-instructions:
+
 Becoming an Affiliated Package
 ------------------------------
 
