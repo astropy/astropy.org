@@ -19,7 +19,7 @@ We encourage you to cite all three papers, but if space is limited, please cite 
 
 - `Astropy Paper III (v5.0) <https://arxiv.org/abs/2206.14220>`__ (`ADS <https://ui.adsabs.harvard.edu/abs/2022ApJ...935..167A>`__ - `BibTeX <https://ui.adsabs.harvard.edu/abs/2022ApJ...935..167A/exportcitation>`__)
 - `Astropy Paper II (v2.0) <https://arxiv.org/abs/1801.02634>`__ (`ADS <http://adsabs.harvard.edu/abs/2018arXiv180102634T>`__ - `BibTeX <https://ui.adsabs.harvard.edu/abs/2018AJ....156..123A/exportcitation>`__)
-- `Astropy Paper I (v0.2) <https://doi.org/10.1051/0004-6361/201322068>`__ (`ADS <http://adsabs.harvard.edu/abs/2013A%26A...558A..33A>`__ - `BibTeX <https://ui.adsabs.harvard.edu/abs/2013A%26A...558A..33A/exportcitation>`__ - `10k citations <paper1_10k_citation.html#astropy-paper-reaches-10-000-citations-article>`__)
+- `Astropy Paper I (v0.2) <https://doi.org/10.1051/0004-6361/201322068>`__ (`ADS <http://adsabs.harvard.edu/abs/2013A%26A...558A..33A>`__ - `BibTeX <https://ui.adsabs.harvard.edu/abs/2013A%26A...558A..33A/exportcitation>`__ - :ref:`10k citations <astropy-org-paper-10k>`)
 
 .. raw:: html
 
