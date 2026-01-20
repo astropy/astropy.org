@@ -2,22 +2,33 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
-      - image: continuumio/miniconda3
+      - image: cimg/python:3.14
     steps:
       - checkout
       - run:
-          name: Conda setup
+          name: Install with pip
           command: |
-            conda config --set always_yes yes --set changeps1 no
-            conda install requests termcolor
+            python -m pip install requests termcolor
+
       - run:
           name: Validate roles JSON file
           command: |
             python validate_roles.py
+
+      - run:
+          name: Install sphinx deps
+          command: |
+            python -m pip install -r requirements.txt
+
+      - run:
+          name: Build sphinx
+          command: |
+            sphinx-build --color -W --keep-going -b html . _build/html
+
       - store_artifacts:
-          path: /root/project
+          path: /root/project/_build/html
           destination: html
