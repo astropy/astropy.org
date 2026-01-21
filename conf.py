@@ -39,7 +39,7 @@ rawfiles = ["annoucement_banner.html", "roles.json", "affiliated/registry.json"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'astropy'
+html_theme = 'astropy-unified'
 
 html_static_path = ['_static']
 
