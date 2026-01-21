@@ -30,5 +30,5 @@ jobs:
             sphinx-build --color -W --keep-going -b html . _build/html
 
       - store_artifacts:
-          path: /root/project/_build/html
+          path: /home/circleci/project/_build/html
           destination: html
