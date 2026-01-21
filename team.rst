@@ -114,9 +114,6 @@ Astropy project packages are under continuous development by professional astron
 .. include:: credits.rst
    :start-line: 4
 
-.. |Astropy mailing list| replace:: `Astropy mailing list <https://mail.python.org/mailman/listinfo/astropy>`__
-.. |astropy-dev mailing list| replace:: `astropy-dev mailing list <http://groups.google.com/group/astropy-dev>`__
-
 .. raw:: html
 
       <script type="text/javascript">
