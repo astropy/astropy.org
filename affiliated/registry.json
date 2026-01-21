@@ -117,7 +117,7 @@
         },
         {
             "name": "astropy core package",
-            "maintainer": "Astropy Coordination Committee",
+            "maintainer": "Astropy Maintainer Community",
             "stable": true,
             "home_url": "https://docs.astropy.org",
             "repo_url": "https://github.com/astropy/astropy",
