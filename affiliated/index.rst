@@ -23,8 +23,8 @@ Astropy Coordinated Packages
     Astropy Project as a whole maintains them. In practice this means
     the Astropy coordination committee has administrative control of a
     coordinated package repository (delegated to the maintainers), and
-    that maintainers of these packages have `formal
-    roles <../team.html>`__ in the Astropy Project. The most prominent
+    that maintainers of these packages have :ref:`formal
+    roles <astropy-org-team>` in the Astropy Project. The most prominent
     of these coordinated packages is the Astropy core package itself.
     In some cases these are packages identified by the core team as
     needing development separate from the core (either they are
@@ -206,7 +206,7 @@ I am a new Editor
 
 Welcome and thank you! We usually do not switch out all our Editors at the same time, so the incumbent co-Editor could help you contact pyOpenSci to add you to `pyOpenSci editorial board <https://www.pyopensci.org/about-peer-review/#meet-our-editorial-board>`__ with the understanding that we are taking the person you are replacing off that board and that your role is Astropy- and astronomy-focused.
 
-Your name would also be added to `Astropy Team <../team.html>`__ under the same role.
+Your name would also be added to :ref:`Astropy Team <astropy-org-team>` under the same role.
 
 I am a new reviewer
 ###################

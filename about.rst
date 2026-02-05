@@ -21,12 +21,11 @@ utilities is healthy for the community and the science it
 produces. This community is of course central to accomplishing
 anything with the code itself. We welcome anyone who wishes to
 contribute to the project and expect everyone in our community to
-follow the `code of conduct <code_of_conduct.html>`__ when
+follow the :ref:`code of conduct <astropy-org-coc>` when
 interacting with others.
 
 For more details on background of the project, you can read the
-`original
-vision <https://docs.astropy.org/en/stable/development/vision.html>`__
+:external+astropy-dev:ref:`original vision <vision>`
 from when the project was founded.
 
 

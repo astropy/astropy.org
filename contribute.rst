@@ -51,11 +51,11 @@ You can use the following links to find all the issues labeled this way and also
 - `Effort-medium <https://github.com/search?p=2&q=label%3Apackage-novice+label%3Aeffort-medium&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93>`__: issues that should take a few days at most
 - `Effort-high <https://github.com/search?p=2&q=label%3Apackage-novice+label%3Aeffort-high&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93>`__: longer term issues
 
-You may also want to familiarize yourself with the `developer documentation <https://docs.astropy.org/en/latest/#developer-documentation>`__, particularly the `coding <https://docs.astropy.org/en/latest/development/codeguide.html>`__ and `documentation <https://docs.astropy.org/en/latest/development/docguide.html>`__ guidelines.
+You may also want to familiarize yourself with the :external+astropy-dev:ref:`developer documentation <developer-docs>`, particularly the :external+astropy-dev:ref:`coding <code-guide>` and :external+astropy-dev:ref:`documentation <documentation-guidelines>` guidelines.
 
 Once you have a change to propose, if it's a simple fix to just a single file, you can even just browse to the appropriate file and use the "edit" button on github.
-If it's a more complex change, we suggest you follow the `developer install instructions <https://docs.astropy.org/en/latest/development/quickstart.html#install-the-development-version-of-astropy>`__, and use that with `Astropy's github page <https://github.com/astropy/astropy>`__ to issue a pull request with your changes.
-If you aren't familiar with github, we suggest you looking over our `workflow documentation <http://astropy.readthedocs.org/en/latest/development/workflow/development_workflow.html>`__.
+If it's a more complex change, we suggest you follow the :external+astropy-dev:ref:`developer install instructions <create-isolated-env>`, and use that with `Astropy's github page <https://github.com/astropy/astropy>`__ to issue a pull request with your changes.
+If you aren't familiar with github, we suggest you looking over our :external+astropy-dev:ref:`workflow documentation <astropy-fix-example>`.
 Once your code is accepted, you are officially an Astropy contributor and eligible to be included on the author list of future publications.
 
 If you want to propose a larger change to Astropy, there's a procedure for that: `Astropy Proposals for Enhancement (APEs) <https://github.com/astropy/astropy-APEs>`__ (modeled after Python's `PEPs <http://legacy.python.org/dev/peps/>`__).

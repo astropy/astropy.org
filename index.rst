@@ -67,7 +67,7 @@ There are a number of ways of installing the latest release of the astropy core 
     pip install astropy[recommended] --upgrade
 
 The astropy core package is also available in a number of other package managers, so be sure to check your preferred one!
-Please see the `astropy installation guide <https://docs.astropy.org/en/latest/install.html>`__ for important details.
+Please see the :external+astropy-dev:ref:`astropy installation guide <installing-astropy>` for important details.
 
 This guide covers creating a Python environment, installing with ``pip`` or ``conda``, building from source, requirements, and testing.
 
@@ -101,7 +101,7 @@ channels for communication. Post to any one of several forums to get
 help from our active, helpful, and friendly community of users and
 developers.
 
-.. button-link:: help.html
+.. button-ref:: astropy-org-help
 
    Get Help
 
@@ -109,8 +109,8 @@ Report bugs and Contribute
 --------------------------
 
 If you encounter something you believe to be a mistake, error, or bug, the best way to get it addressed is to report it on the `github issue tracker <http://github.com/astropy/astropy/issues>`__.
-If you aren't sure if something is a bug or not, or if you don't have a Github account, feel free to ask on one of the `forums <help.html>`__.
-If you believe you know how to fix the problem, please consider `contributing <contribute.html#code>`__!
+If you aren't sure if something is a bug or not, or if you don't have a Github account, feel free to ask on one of the :ref:`forums <astropy-org-help>`.
+If you believe you know how to fix the problem, please consider :ref:`contributing <astropy-org-contribute>`!
 
 .. grid:: 2
   :gutter: 1
@@ -125,7 +125,7 @@ If you believe you know how to fix the problem, please consider `contributing <c
   .. grid-item::
     :columns: auto
 
-    .. button-link:: contribute.html
+    .. button-ref:: astropy-org-contribute
 
       Contribute
 
@@ -134,7 +134,7 @@ Support Astropy
 
 If you use Astropy in your work, we would be grateful if you could
 include an acknowledgment in papers and/or presentations. See
-`Acknowledging & Citing Astropy <acknowledging.html>`__ for details.
+:ref:`Acknowledging & Citing Astropy <astropy-org-acknowledge>` for details.
 
 You can also purchase apparel and trinkets from
 `fashion.astropy.org <http://fashion.astropy.org>`__, and a portion

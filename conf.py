@@ -16,8 +16,16 @@ author = 'Astropy Community'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3/",
+               (None, "http://data.astropy.org/intersphinx/python3.inv")),
+    "astropy": ("https://docs.astropy.org/en/stable", None),
+    "astropy-dev": ("https://docs.astropy.org/en/latest", None),
+}
+
 sys.path.append(Path("exts").absolute().as_posix())
 extensions = [
+    "sphinx.ext.intersphinx",
     "myst_parser",
     "sphinx_design",
     "sphinx_copybutton",

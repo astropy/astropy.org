@@ -83,8 +83,8 @@ find out more about the team behind Astropy here:
 
 If you use Astropy directly for your work, or as a dependency to another
 package, please remember to acknowledgment it by citing the appropriate
-Astropy paper. For the most up-to-date suggestions, see `the
-acknowledgement page <../acknowledging.html>`__, but as of this release
+Astropy paper. For the most up-to-date suggestions, see :ref:`the
+acknowledgment page <astropy-org-acknowledge>`, but as of this release
 the recommendation is:
 
 This research made use of Astropy, a community-developed core Python
