@@ -32,6 +32,7 @@ exclude_patterns = [
     'LICENSE.rst',
     'README.md',
     'CONTRIBUTING.md',
+    '.tox/**',
 ]
 
 rawfiles = ["annoucement_banner.html", "roles.json", "affiliated/registry.json"]
