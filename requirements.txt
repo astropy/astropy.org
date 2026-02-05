@@ -1,0 +1,5 @@
+sphinx
+myst-parser
+sphinx-design
+astropy-sphinx-theme@git+https://github.com/Cadair/astropy-sphinx-theme@sunpy-astropy-theme
+sphinx-copybutton

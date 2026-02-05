@@ -1,0 +1,73 @@
+.bd-sidebar-secondary {
+    background-color: transparent;
+}
+
+a.sd-btn {
+    border: none;
+}
+
+a.sd-btn {
+    color: var(--sst-lightest-color);
+    background-image: linear-gradient(var(--sst-accent-color-muted), var(--sst-accent-color-bright));
+}
+
+a.sd-btn:hover,
+a.sd-btn:visited:hover {
+    color: var(--sst-dark-color);
+    background: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+    background-image: linear-gradient(var(--sst-accent-color-muted), var(--sst-accent-color-bright));
+    text-decoration: none;
+}
+
+table{
+    margin: 20px 0px;
+    word-break:overflow-wrap;
+}
+
+.package-table {
+    border: 0;
+}
+
+table.package-table thead{
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(128,128,128,0.2);
+}
+
+table.package-table td{
+    padding:5px 5px;
+    font-size: 100%;
+    line-height: 1.3em;
+    border: 0;
+}
+
+table.package-table td.first-package-row {
+    padding:15px 5px 5px 5px;
+    font-weight: bold;
+    min-width: 130px;
+}
+
+.package-table td ~ td, .table td ~ th, .table th ~ td, .table th ~ th {
+    border-left: 0;
+}
+
+.package-table tbody tr:nth-child(2n+1),
+.package-table tbody tr {
+    background-color: transparent !important;
+}
+
+/* Create a border after every 3rd row to visually separate packages */
+.forth-row-sep tbody tr:nth-child(4n+5) {
+    border-top: 1px var(--bs-border-color) solid;
+}
+.third-row-sep tbody tr:nth-child(3n+4) {
+    border-top: 1px var(--bs-border-color) solid;
+}
+
+.announce-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

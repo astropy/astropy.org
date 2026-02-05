@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+  # Allow manual runs through the web UI
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  core:
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v2
+    with:
+      submodules: true
+      libraries: |
+        apt:
+          - pandoc
+      envs: |
+        - linux: build_site
+        - linux: linkcheck
